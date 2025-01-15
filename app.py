@@ -13,10 +13,10 @@ db_ops = db_operations("playlist.db")
 def startApp():
     print("Welcome to your playlist! ")
 
-    # Create the songs table -> run this line ONCE!!
+    # Create the songs table 
     #db_ops.create_new_table()
 
-    # Ingest data from the songs.csv file -> run this line ONCE!!
+    # Ingest data from the songs.csv file
     #db_ops.ingest_songs('songs.csv')
 
 def mainMenu():
@@ -49,8 +49,7 @@ def mainMenu():
     else:
         print("Invalid choice, please select again.")
 
-
-    # do this for all menu options 
+ 
 
 def main():
     startApp()
